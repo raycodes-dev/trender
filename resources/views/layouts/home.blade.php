@@ -234,16 +234,38 @@
                 <p class="text-sm text-gray-500 leading-relaxed mb-6">AI-powered creative solutions for videos, designs, and thumbnails. Simple Trenders — making creativity accessible.</p>
                 <div class="flex items-center gap-3">
                     <a href="#" class="w-9 h-9 rounded-lg bg-gray-900 border border-white/5 flex items-center justify-center text-gray-500 hover:text-white hover:border-white/20 transition-all">
-                        <i data-lucide="twitter" class="w-4 h-4"></i>
+                        <i data-lucide="twitter" class="w-4 h-4">       
+                           <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-4 h-4">
+                                <path d="M9 12a4 4 0 1 0 4 4V4a5 5 0 0 0 5 5" />
+                            </svg>
+                        </i>
+    
                     </a>
                     <a href="#" class="w-9 h-9 rounded-lg bg-gray-900 border border-white/5 flex items-center justify-center text-gray-500 hover:text-white hover:border-white/20 transition-all">
-                        <i data-lucide="instagram" class="w-4 h-4"></i>
+                        <i data-lucide="instagram" class="w-4 h-4">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-4 h-4">
+                                <rect width="20" height="20" x="2" y="2" rx="5" ry="5"/>
+                                <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/>
+                                <line x1="17.5" x2="17.51" y1="6.5" y2="6.5"/>
+                            </svg>
+                        </i>
                     </a>
                     <a href="#" class="w-9 h-9 rounded-lg bg-gray-900 border border-white/5 flex items-center justify-center text-gray-500 hover:text-white hover:border-white/20 transition-all">
-                        <i data-lucide="linkedin" class="w-4 h-4"></i>
+                        <i data-lucide="linkedin" class="w-4 h-4">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-4 h-4">
+                                <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/>
+                                <rect width="4" height="12" x="2" y="9"/>
+                                <circle cx="4" cy="4" r="2"/>
+                            </svg>
+                        </i>
                     </a>
-                    <a href="#" class="w-9 h-9 rounded-lg bg-gray-900 border border-white/5 flex items-center justify-center text-gray-500 hover:text-white hover:border-white/20 transition-all">
-                        <i data-lucide="youtube" class="w-4 h-4"></i>
+                    <a href="https://wa.me/201202666714" class="w-9 h-9 rounded-lg bg-gray-900 border border-white/5 flex items-center justify-center text-gray-500 hover:text-white hover:border-white/20 transition-all">
+                        <i data-lucide="youtube" class="w-4 h-4 text-green">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-4 h-4">
+                            <path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 1 1-7.6-12.7 8.38 8.38 0 0 1 3.8.9L21 3z"/>
+                            <path d="M15.5 14c-.5 0-2.5-1.5-3-2s-1.5-2.5-1.5-3 .5-1 1-1.5.5-1 0-2-1.5-2.5-2-2.5-1.5.5-2 1-1.5 1.5-1.5 3 1.5 5 4 7.5 5 4 7.5 4 3-1.5 3-1.5.5-.5 1-2-.5-1.5-2.5-2z"/>
+                        </svg>
+                        </i>
                     </a>
                 </div>
             </div>
@@ -271,7 +293,7 @@
             </div>
 
             <!-- Company -->
-            <div>
+            {{-- <div>
                 <h4 class="text-sm font-semibold text-white mb-4">Company</h4>
                 <ul class="space-y-3">
                     <li><a href="#team" class="text-sm text-gray-500 hover:text-white transition-colors">About</a></li>
@@ -279,7 +301,7 @@
                     <li><a href="#" class="text-sm text-gray-500 hover:text-white transition-colors">Terms of Service</a></li>
                     <li><a href="#contact" class="text-sm text-gray-500 hover:text-white transition-colors">Contact</a></li>
                 </ul>
-            </div>
+            </div> --}}
         </div>
 
         <div class="border-t border-white/5 mt-12 pt-8 flex flex-col sm:flex-row items-center justify-between gap-4">

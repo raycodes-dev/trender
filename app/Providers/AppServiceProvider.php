@@ -26,7 +26,7 @@ class AppServiceProvider extends ServiceProvider
     {
         $this->configureDefaults();
         // Added Manually
-         URL::forceScheme('https');
+        //  URL::forceScheme('https');
     }
 
     /**

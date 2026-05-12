@@ -15,6 +15,8 @@ class CreatorsTable
     public static function configure(Table $table): Table
     {
         return $table
+        ->reorderable('sort') // This enables the drag-and-drop UI
+        ->defaultSort('sort', 'asc') // Keeps the table organized by your custom order
             ->columns([
                 ImageColumn::make('profile_picture')
                     ->circular(),

@@ -17,7 +17,8 @@ new #[Layout('layouts::home')] class extends Component
     {
         $work = \App\Models\our_work::all();
         $this->work = $work;
-        $teams = \App\Models\Creator::all();
+        $teams = \App\Models\Creator::orderBy('sort', 'asc') // This is the magic line
+        ->get();
         $this->teams = $teams;
 
     }
