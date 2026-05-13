@@ -712,7 +712,7 @@ new #[Layout('layouts::home')] class extends Component
                 </div>
 
                 <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent flex items-end p-3">
-                    // <p class="text-xs font-medium text-white">${work.title}</p>
+                    
                 </div>
             </div>
         `).join('')}

@@ -4,7 +4,12 @@ use Livewire\Component;
 use Livewire\Attributes\Layout;
 new #[Layout('layouts::home')] class extends Component
 {
-    //
+    public $creatorsCount;
+    public function mount()
+    {
+        $this->creatorsCount = \App\Models\Creator::count();
+        
+    }
 };
 ?>
 
@@ -18,7 +23,7 @@ new #[Layout('layouts::home')] class extends Component
                     <p class="text-sm text-gray-500 mt-1">Videos Created</p>
                 </div>
                 <div>
-                    <p class="stat-number text-3xl md:text-4xl font-bold gradient-text" data-target="4">0</p>
+                    <p class="stat-number text-3xl md:text-4xl font-bold gradient-text" data-target="{{ $creatorsCount }}">0</p>
                     <p class="text-sm text-gray-500 mt-1">Active Creators</p>
                 </div>
                 <div>
