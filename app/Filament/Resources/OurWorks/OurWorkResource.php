@@ -9,7 +9,7 @@ use App\Filament\Resources\OurWorks\Pages\ViewOurWork;
 use App\Filament\Resources\OurWorks\Schemas\OurWorkForm;
 use App\Filament\Resources\OurWorks\Schemas\OurWorkInfolist;
 use App\Filament\Resources\OurWorks\Tables\OurWorksTable;
-use App\Models\our_work;
+use App\Models\Our_work;
 use App\Models\OurWork;
 use BackedEnum;
 use Filament\Resources\Resource;
@@ -19,7 +19,7 @@ use Filament\Tables\Table;
 
 class OurWorkResource extends Resource
 {
-    protected static ?string $model = our_work::class;
+    protected static ?string $model = Our_work::class;
     //name
 //    protected static ?string $name = 'our_work';
     protected static ?string $modelLabel = 'Our Work';
