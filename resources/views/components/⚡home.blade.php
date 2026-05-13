@@ -15,7 +15,7 @@ new #[Layout('layouts::home')] class extends Component
     public $teams;
     public function mount()
     {
-        $work = \App\Models\our_work::all();
+        $work = \App\Models\Our_work::all();
         $this->work = $work;
         $teams = \App\Models\Creator::orderBy('sort', 'asc') // This is the magic line
         ->get();
