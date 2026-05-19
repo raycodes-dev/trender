@@ -16,6 +16,7 @@
 
         gtag('config', 'G-Q1E5NVY27Y');
     </script>
+    <meta name="trustpilot-one-time-domain-verification-id" content="2c66afef-3af0-4bef-8e27-cce392c12e30"/>
     <script>
         tailwind.config = {
             theme: {
